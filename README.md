@@ -1,5 +1,5 @@
 # VAE with Volume-Preserving Flows
-This is a PyTorch implementation two volume-preserving flows as described in the following two papers:
+This is a PyTorch implementation of two volume-preserving flows as described in the following papers:
 * Tomczak, J. M., & Welling, M., Improving Variational Auto-Encoders using Householder Flow, [arXiv preprint](https://arxiv.org/abs/1611.09630), 2016
 * Tomczak, J. M., & Welling, M., Improving Variational Auto-Encoders using convex combination linear Inverse Autoregressive Flow, [arXiv preprint](https://arxiv.org/abs/1706.02326), 2017
 
