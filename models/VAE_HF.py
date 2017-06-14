@@ -151,7 +151,7 @@ class VAE(nn.Module):
             a = np.asarray(a)
             a = np.reshape(a, (a.shape[0] * a.shape[1], 1))
             likelihood_x = logsumexp( a )
-            likelihood_test.append(likelihood_x - np.log(S))
+            likelihood_test.append(likelihood_x - np.log(len(a)))
 
         likelihood_test = np.array(likelihood_test)
 
